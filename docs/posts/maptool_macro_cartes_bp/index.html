@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta name="generator" content="Hugo 0.81.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Conception d&#39;une macro pour utiliser le système de cartes d&#39;affrontement dans MapTool.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Une macro MapTool pour les cartes d&#39;affrontement" />
+<meta property="og:description" content="Conception d&#39;une macro pour utiliser le système de cartes d&#39;affrontement dans MapTool." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gobelinlabs.github.io/posts/maptool_macro_cartes_bp/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-16T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-12-16T00:00:00&#43;00:00" /><meta property="og:site_name" content="Gobelin Labs" />
+
+<title>Une macro MapTool pour les cartes d&#39;affrontement | Gobelin Labs</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
+<script defer src="/fr.search.min.fb35766ebc27771fcf05202554a0957d88471c5ac84a8cd5f45cbfbb93f1e9c1.js" integrity="sha256-&#43;zV2brwndx/PBSAlVKCVfYhHHFrISozV9Fy/u5Px6cE="></script>
+
+<script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-XSMLWGQD63', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Gobelin Labs</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Rechercher" aria-label="Rechercher" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>🎲 Règles de jeu</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d7557c9b5f7cb80b752aa94a5e403fa8" class="toggle"  />
+    <label for="section-d7557c9b5f7cb80b752aa94a5e403fa8" class="flex justify-between">
+      <a  class="">Personnage</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-861ef853d4962dd59ebc1d820d32c4b0" class="toggle"  />
+    <label for="section-861ef853d4962dd59ebc1d820d32c4b0" class="flex justify-between">
+      <a  class="">Fiche de personnage</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/fiche_personnages/attributs/" class="">Les Attributs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/fiche_personnages/capacites/" class="">Les Capacités</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/historiques_personnage/" class="">Les Historiques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/creation_personnage/" class="">Créer un personnage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/px_evolution/" class="">PX et évolution</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a22d97223b7dd361206e5c7f42668167" class="toggle"  />
+    <label for="section-a22d97223b7dd361206e5c7f42668167" class="flex justify-between">
+      <a  class="">Dynamique de jeu</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/narration_epiphanie/" class="">Narration, Épiphanie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/tour_de_jeu/" class="">Le tour de jeu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/types_actions/" class="">Les types d&#39;actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/jets_de_des/" class="">Les jets de dés</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-08a7d010bcf42ec39f2c15ca1fbc0aee" class="toggle"  />
+    <label for="section-08a7d010bcf42ec39f2c15ca1fbc0aee" class="flex justify-between">
+      <a href="https://gobelinlabs.github.io/docs/regles/affrontements/" class="">Affrontements</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/statistiques_personnage/" class="">Statistiques de personnage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/initiative/" class="">L&#39;Initiative et le Cadre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/combat_physique/" class="">Combat physique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/combat_rhetorique/" class="">Combat rhétorique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/cartes_affrontement/" class="">Cartes d&#39;Affrontement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c03a333e1e008fa63f87139082362138" class="toggle"  />
+    <label for="section-c03a333e1e008fa63f87139082362138" class="flex justify-between">
+      <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/" class="">Résolutions dramatiques</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/conduite_acrobatique/" class="">Conduite acrobatique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/discretion/" class="">Dissimulation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/escalade/" class="">Escalade</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/filature/" class="">Filature</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/fouille/" class="">Fouille</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/pistage/" class="">Pistage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/poursuite/" class="">Poursuite</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/reparation/" class="">Réparation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/saut/" class="">Saut</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/les_dons/" class="">Les dons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-21654b724c57a6c555fa68260d6275ec" class="toggle"  />
+    <label for="section-21654b724c57a6c555fa68260d6275ec" class="flex justify-between">
+      <a  class="">Magie</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/bases_magie/" class="">Les bases de la Magie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/spheres/" class="">Sphères</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1966133739fcca28039a655fe5fbf5ff" class="toggle"  />
+    <label for="section-1966133739fcca28039a655fe5fbf5ff" class="flex justify-between">
+      <a  class="">Les Magisciens</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/les-magisciens/charmes_et_grimoires/" class="">Charmes et Grimoires</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/les-magisciens/sortileges/" class="">Les Sortilèges</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>🛠️ Les créations</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/cr%C3%A9ations/inventaire/" class="">Inventaire et prix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/cr%C3%A9ations/cartes_affrontement/" class="">Les cartes d&#39;Affrontement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        📝 Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Une macro MapTool pour les cartes d&#39;affrontement</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#contexte">Contexte</a></li>
+    <li><a href="#logique-de-la-macro">Logique de la macro</a></li>
+    <li><a href="#propriétés-cibles">Propriétés cibles</a></li>
+    <li><a href="#bug-log">Bug Log</a></li>
+    <li><a href="#code-des-cartes-blessures">Code (des cartes Blessures)</a></li>
+    <li><a href="#code-des-cartes-perturbations">Code (des cartes Perturbations)</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/maptool_macro_cartes_bp/">Une macro MapTool pour les cartes d&#39;affrontement</a>
+  </h1>
+  
+  <h5>Dec 16, 2020</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/development/">Development</a>
+  </div>
+  
+
+  
+  <div>
+    
+      <a href="/tags/rptools/">RPTools</a>, 
+      <a href="/tags/macro/">macro</a>, 
+      <a href="/tags/maptool/">MapTool</a>, 
+      <a href="/tags/vtt/">VTT</a>, 
+      <a href="/tags/cards/">cards</a>
+  </div>
+  
+
+
+  <p><blockquote>
+<p>Voir le <a href="https://discord.com/invite/hbn2bfn">serveur Discord</a> et le <a href="https://wiki.rptools.info/index.php/Main_Page">Wiki</a> de <a href="https://www.rptools.net/">RPTools</a> pour plus d&rsquo;informations et de discussions.</p>
+</blockquote>
+<h2 id="contexte">
+  Contexte
+  <a class="anchor" href="#contexte">#</a>
+</h2>
+<p>On a déjà parlé brièvement de MapTool dans le post concernant <a href="/posts/maptool_macro_cartes_bp/">la macro pour les lancers de dés</a> : il s&rsquo;agit d&rsquo;un logiciel de VTT permettant l&rsquo;édition complexe de macros spécifiques à vos besoins.</p>
+<p>Dans le cas présent, l&rsquo;objectif est le suivant : <strong>Simuler <a href="/docs/regles/affrontements/cartes_affrontement/">le système des cartes</a> de Blessures et de Perturbations</strong> pour l&rsquo;intégrer pleinement au framework de la partie en ligne.</p>
+<h2 id="logique-de-la-macro">
+  Logique de la macro
+  <a class="anchor" href="#logique-de-la-macro">#</a>
+</h2>
+<ol>
+<li>Vérifie le nombre de cartes Perturbations déjà en main et annule si <code>Perturbations &gt;= Volonté actuelle</code></li>
+<li>Évalue le nombre de cartes à tirer</li>
+<li>Tire la première carte face cachée ► stock l&rsquo;asset (l&rsquo;image) dans une variable</li>
+<li>Le cas échéant, tire les autres cartes visibles ► crée une liste <code>CartesVisibles</code> pour stacker les assets (les images)</li>
+<li>Append <code>CartesCachees</code> (variable macro, temporaire) dans <code>cartesPerturbationsCachees</code> (propriété du token, permanent)</li>
+<li>Append <code>CartesVisibles</code> (variable macro, temporaire) dans <code>cartesPerturbationsVisibles</code> (propriété du token, permanent)</li>
+<li>Affiche les nouvelles cartes tirées sur une ligne en commençant par un dos de carte (face cachée) puis les cartes visibles</li>
+</ol>
+<h2 id="propriétés-cibles">
+  Propriétés cibles
+  <a class="anchor" href="#propri%c3%a9t%c3%a9s-cibles">#</a>
+</h2>
+<ul>
+<li><code>cartesBlessures:0</code> ► Nombre total de cartes Blessures (<code>default = 0</code>)</li>
+<li><code>cartesBlessuresCachees:&quot;&quot;</code> ► Liste des assets de cartes Blessures cachées (<code>default = empty</code>)</li>
+<li><code>cartesBlessuresVisibles:&quot;&quot;</code> ► Liste des assets de cartes Blessures visibles (<code>default = empty</code>)</li>
+<li><code>cartesPerturbations:0</code> ► Nombre total de cartes Perturbations (<code>default = 0</code>)</li>
+<li><code>cartesPerturbationsVisibles:&quot;&quot;</code> ► Liste des assets de cartes Perturbations cachées (<code>default = empty</code>)</li>
+<li><code>cartesPerturbationsCachees:&quot;&quot;</code> ► Liste des assets de cartes Perturbations visibles (<code>default = empty</code>)</li>
+</ul>
+<hr>
+<h2 id="bug-log">
+  Bug Log
+  <a class="anchor" href="#bug-log">#</a>
+</h2>
+<p><strong>► Si l&rsquo;arrivée au max se fait avec 1 carte, tirer 1 carte ensuite en ajoute 1 de trop (soient 2)</strong></p>
+<blockquote>
+<ol>
+<li><code>cartesBlessures = 0 / 7</code></li>
+<li>tirer 7 cartes ► <code>cartesBlessures = 7 / 7</code></li>
+<li>tirer 1 carte ► <code>cartesBlessures = 8 / 7</code></li>
+</ol>
+<p>Comportement anormal :</p>
+<ol>
+<li><code>cartesBlessures = 0 / 7</code></li>
+<li>tirer 6 cartes ► <code>cartesBlessures = 6 / 7</code></li>
+<li>tirer 1 carte ► <code>cartesBlessures = 7 / 7</code></li>
+<li>tirer 1 carte ► <code>cartesBlessures = 9 / 7</code></li>
+</ol>
+</blockquote>
+<h2 id="code-des-cartes-blessures">
+  Code (des cartes Blessures)
+  <a class="anchor" href="#code-des-cartes-blessures">#</a>
+</h2>
+<p>Les cartes Blessures sont à opposer aux PV Max car les PV ne se dépensent pas.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--Si trop de cartes déjà en main, protection du token--&gt;</span>
+[r,if(cartesBlessures &gt; PVcurrent),code:{[abort(0)]};{}]
+
+
+<span style="color:#75715e">&lt;!--Sinon = déroulement normal--&gt;</span>
+
+
+<span style="color:#75715e">&lt;!--Variables--&gt;</span>
+<span style="color:#75715e">&lt;!--Demande au joueur le nombre de cartes à tirer--&gt;</span>
+[h: input(&#34;NombreDeCartes&#34;)]
+<span style="color:#75715e">&lt;!--Déclare la première carte comme cachée--&gt;</span>
+[h: NbCartesCachees = 1]
+<span style="color:#75715e">&lt;!--Calcule le nombre de cartes visibles--&gt;</span>
+[h: NbCartesVisibles = NombreDeCartes - NbCartesCachees]
+<span style="color:#75715e">&lt;!--Retient l&#39;état initial du nombre de cartes Blessures en main--&gt;</span>
+[h: BlessuresInit = cartesBlessures]
+
+
+<span style="color:#75715e">&lt;!--Tire une carte qui restera cachée--&gt;</span>
+[h: CarteCachee = tableImage(&#34;Blessures&#34;)]
+
+
+<span style="color:#75715e">&lt;!--S&#39;il reste des cartes à tirer, crée une liste vide CartesVisibles--&gt;</span>
+[h: CartesVisibles = &#34;&#34;]
+<span style="color:#75715e">&lt;!--Tire et stack les cartes (le cas échéant) dans CartesVisibles--&gt;</span>
+[h,if(NbCartesVisibles &gt; 0),code:{
+    [c(NbCartesVisibles):CartesVisibles = listAppend(CartesVisibles,tableImage(&#34;Blessures&#34;))]
+};{}]
+
+
+
+<span style="color:#75715e">&lt;!--Affiche un dos de carte pour signifier une carte cachée tirée, ajoute un _ pour la lisibilité --&gt;</span>
+&lt;<span style="color:#f92672">br</span>&gt;
+&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;[r: tableImage(&#34;Dos&#34;,1)]&#39;</span>&gt;&lt;/<span style="color:#f92672">img</span>&gt;_
+
+
+<span style="color:#75715e">&lt;!--Affiche les cartes visibles à la suite de la carte cachée--&gt;</span>
+[foreach(asset,CartesVisibles,&#34;_&#34;),code:{&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;[r:asset]&#39;</span>&gt;&lt;/<span style="color:#f92672">img</span>&gt;}]
+
+
+<span style="color:#75715e">&lt;!--Insère l&#39;asset de la carte cachée dans la propriété du token--&gt;</span>
+[h: cartesBlessuresCachees = listAppend(cartesBlessuresCachees,CarteCachee)]
+<span style="color:#75715e">&lt;!--Insère la liste d&#39;assets des cartes visibles dans la propriété du token--&gt;</span>
+[h: cartesBlessuresVisibles = listAppend(cartesBlessuresVisibles,CartesVisibles)]
+
+
+<span style="color:#75715e">&lt;!--Calcule le total de cartes actuel--&gt;</span>
+[h: BlessuresTOTAL = json.length(json.fromList(cartesBlessuresVisibles)) + json.length(json.fromList(cartesBlessuresCachees))]
+
+<span style="color:#75715e">&lt;!--Affiche dans la ligne en-dessous un message contextuel au joueur sur la réaction du token--&gt;</span>
+&lt;<span style="color:#f92672">br</span>&gt;
+[r,if(BlessuresTOTAL &lt; <span style="color:#f92672">PVmax</span><span style="color:#960050;background-color:#1e0010">),</span><span style="color:#a6e22e">code:</span>
+	<span style="color:#960050;background-color:#1e0010">{&lt;</span><span style="color:#a6e22e">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;maroon&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;Blessures : [BlessuresInit] → [cartesBlessures = BlessuresTOTAL] cartes en main&lt;<span style="color:#f92672">br</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;[r:token.name]&lt;/<span style="color:#f92672">i</span>&gt; est blessé...&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+
+[r,if(BlessuresTOTAL == PVmax),code:
+	{&lt;<span style="color:#f92672">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;orange&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;Blessures : [BlessuresInit] → [cartesBlessures = BlessuresTOTAL] cartes en main&lt;<span style="color:#f92672">br</span>&gt;[r:token.name]&lt;/<span style="color:#f92672">i</span>&gt; se vide de son sang !&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+
+[r,if(BlessuresTOTAL &gt; PVmax),code: {&lt;<span style="color:#f92672">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;red&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;Blessures : [BlessuresInit] → [cartesBlessures = BlessuresTOTAL] / [PVcurrent]&lt;<span style="color:#f92672">br</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;[r: token.name]&lt;/<span style="color:#f92672">i</span>&gt; périt...&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+</code></pre></div><h2 id="code-des-cartes-perturbations">
+  Code (des cartes Perturbations)
+  <a class="anchor" href="#code-des-cartes-perturbations">#</a>
+</h2>
+<p>Les cartes Perturbations sont à opposer à la réserve de Volonté <code>volonteCurrent</code> et non au niveau de Volonté <code>volonteMax</code>, car cette dernière peut être dépensée.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--Si trop de cartes déjà en main, protection du token--&gt;</span>
+[r,if(cartesPerturbations &gt; volonteCurrent),code:{[abort(0)]};{}]
+
+
+<span style="color:#75715e">&lt;!--Sinon = déroulement normal--&gt;</span>
+
+
+<span style="color:#75715e">&lt;!--Variables--&gt;</span>
+<span style="color:#75715e">&lt;!--Demande au joueur le nombre de cartes à tirer--&gt;</span>
+[h: input(&#34;NombreDeCartes&#34;)]
+<span style="color:#75715e">&lt;!--Déclare la première carte comme cachée--&gt;</span>
+[h: NbCartesCachees = 1]
+<span style="color:#75715e">&lt;!--Calcule le nombre de cartes visibles--&gt;</span>
+[h: NbCartesVisibles = NombreDeCartes - NbCartesCachees]
+<span style="color:#75715e">&lt;!--Retient l&#39;état initial du nombre de cartes Perturbations en main--&gt;</span>
+[h: PerturbationsInit = cartesPerturbations]
+
+
+<span style="color:#75715e">&lt;!--Tire une carte qui restera cachée--&gt;</span>
+[h: CarteCachee = tableImage(&#34;Perturbations&#34;)]
+
+
+<span style="color:#75715e">&lt;!--S&#39;il reste des cartes à tirer, crée une liste vide CartesVisibles--&gt;</span>
+[h: CartesVisibles = &#34;&#34;]
+<span style="color:#75715e">&lt;!--Tire et stack les cartes (le cas échéant) dans CartesVisibles--&gt;</span>
+[h,if(NbCartesVisibles &gt; 0),code:{
+    [c(NbCartesVisibles):CartesVisibles = listAppend(CartesVisibles,tableImage(&#34;Perturbations&#34;))]
+};{}]
+
+
+
+<span style="color:#75715e">&lt;!--Affiche un dos de carte pour signifier une carte cachée tirée, ajoute un _ pour la lisibilité --&gt;</span>
+&lt;<span style="color:#f92672">br</span>&gt;
+&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;[r: tableImage(&#34;Dos&#34;,2)]&#39;</span>&gt;&lt;/<span style="color:#f92672">img</span>&gt;_
+
+
+<span style="color:#75715e">&lt;!--Affiche les cartes visibles à la suite de la carte cachée--&gt;</span>
+[foreach(asset,CartesVisibles,&#34;_&#34;),code:{&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;[r:asset]&#39;</span>&gt;&lt;/<span style="color:#f92672">img</span>&gt;}]
+
+
+<span style="color:#75715e">&lt;!--Insère l&#39;asset de la carte cachée dans la propriété du token--&gt;</span>
+[h: cartesPerturbationsCachees = listAppend(cartesPerturbationsCachees,CarteCachee)]
+<span style="color:#75715e">&lt;!--Insère la liste d&#39;assets des cartes visibles dans la propriété du token--&gt;</span>
+[h: cartesPerturbationsVisibles = listAppend(cartesPerturbationsVisibles,CartesVisibles)]
+
+
+<span style="color:#75715e">&lt;!--Calcule le total de cartes actuel--&gt;</span>
+[h: PerturbationsTOTAL = json.length(json.fromList(cartesPerturbationsVisibles)) + json.length(json.fromList(cartesPerturbationsCachees))]
+
+<span style="color:#75715e">&lt;!--Affiche dans la ligne en-dessous un message contextuel au joueur sur la réaction du token--&gt;</span>
+&lt;<span style="color:#f92672">br</span>&gt;
+[r,if(PerturbationsTOTAL &lt; <span style="color:#f92672">volonteCurrent</span><span style="color:#960050;background-color:#1e0010">),</span><span style="color:#a6e22e">code:</span>
+	<span style="color:#960050;background-color:#1e0010">{&lt;</span><span style="color:#a6e22e">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;navy&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;Perturbations : [PerturbationsInit] → [cartesPerturbations = PerturbationsTOTAL] cartes en main&lt;<span style="color:#f92672">br</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;[r: token.name]&lt;/<span style="color:#f92672">i</span>&gt; se sent mal...&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+
+[r,if(PerturbationsTOTAL == volonteCurrent),code:
+	{&lt;<span style="color:#f92672">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;orange&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;Perturbations : [PerturbationsInit] → [cartesPerturbations = PerturbationsTOTAL] cartes en main&lt;<span style="color:#f92672">br</span>&gt;[r: token.name]&lt;/<span style="color:#f92672">i</span>&gt; commence à paniquer...&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+
+[r,if(PerturbationsTOTAL &gt; volonteCurrent),code: {&lt;<span style="color:#f92672">font</span> <span style="color:#a6e22e">color</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;red&#34;</span>&gt;&lt;<span style="color:#f92672">b</span>&gt;Perturbations : [ PerturbationsInit] → [cartesPerturbations = PerturbationsTOTAL] / [volonteCurrent]&lt;<span style="color:#f92672">br</span>&gt;&lt;<span style="color:#f92672">i</span>&gt;[r: token.name]&lt;/<span style="color:#f92672">i</span>&gt; est en déroute mentale !&lt;/<span style="color:#f92672">b</span>&gt;&lt;/<span style="color:#f92672">color</span>&gt;};{}]
+</code></pre></div></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+
+  
+    
+  
+    
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      Français
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="https://gobelinlabs.github.io/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Français
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://gobelinlabs.github.io/en/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#contexte">Contexte</a></li>
+    <li><a href="#logique-de-la-macro">Logique de la macro</a></li>
+    <li><a href="#propriétés-cibles">Propriétés cibles</a></li>
+    <li><a href="#bug-log">Bug Log</a></li>
+    <li><a href="#code-des-cartes-blessures">Code (des cartes Blessures)</a></li>
+    <li><a href="#code-des-cartes-perturbations">Code (des cartes Perturbations)</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Optimot</title>
+    <link>https://draft-optimot.github.io/en/tags/</link>
+    <description>Recent content in Tags on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://draft-optimot.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astral</title>
+      <link>https://draft-optimot.github.io/en/tags/astral/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/astral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MapTool</title>
+      <link>https://draft-optimot.github.io/en/tags/maptool/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/maptool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reddit</title>
+      <link>https://draft-optimot.github.io/en/tags/reddit/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/reddit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roll20</title>
+      <link>https://draft-optimot.github.io/en/tags/roll20/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/roll20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RPTools</title>
+      <link>https://draft-optimot.github.io/en/tags/rptools/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/rptools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VTT</title>
+      <link>https://draft-optimot.github.io/en/tags/vtt/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/tags/vtt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

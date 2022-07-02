@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>📖 Documentation on Optimot</title>
+    <link>https://draft-optimot.github.io/docs/documentation/</link>
+    <description>Recent content in 📖 Documentation on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Licence</title>
+      <link>https://draft-optimot.github.io/docs/documentation/licence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/licence/</guid>
+      <description>LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
+Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
+Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés  Ne peuvent pas# Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci  Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
+    </item>
+    
+  </channel>
+</rss>

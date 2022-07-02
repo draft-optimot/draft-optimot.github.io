@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RPTools on Optimot</title>
+    <link>https://draft-optimot.github.io/en/tags/rptools/</link>
+    <description>Recent content in RPTools on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://draft-optimot.github.io/en/tags/rptools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What makes a map immersive?</title>
+      <link>https://draft-optimot.github.io/en/posts/what_makes_a_map_immersive/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/posts/what_makes_a_map_immersive/</guid>
+      <description>Context#As I&amp;rsquo;m diving into the investigation of battlemaps and their use-cases, the previous question being as simple as &amp;ldquo;Why do you use battlemaps?&amp;quot;, I was really interested in the fact that because they allow visual immersion was the most popular answer.
+As a completely unexpected move, I thus started a new poll asking &amp;ldquo;What makes a map immersive?&amp;quot; (didn&amp;rsquo;t see that coming, heh?), hoping to get a better grasp on how DMs and players come to feel immersed from digitally painted maps.</description>
+    </item>
+    
+    <item>
+      <title>Why using battlemaps?</title>
+      <link>https://draft-optimot.github.io/en/posts/why_using_battlemaps/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/en/posts/why_using_battlemaps/</guid>
+      <description>Context#I&amp;rsquo;ve been GM for almost 20 years now (ouch! 🎅) but I only recently came to VTT softwares, just like lots of other GM did when COVID-19 forced us home. I became quite an enthusiast, but as I&amp;rsquo;m a curious person, I wanted to get a better understanding of VTTs as both a social and a technical object.
+Several questions came in mind, and the first was : Why do you use battlemaps?</description>
+    </item>
+    
+  </channel>
+</rss>

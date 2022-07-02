@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cas d&#39;usage on Optimot</title>
+    <link>https://draft-optimot.github.io/docs/documentation/cas_usage/</link>
+    <description>Recent content in Cas d&#39;usage on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/cas_usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dialogues et citations</title>
+      <link>https://draft-optimot.github.io/docs/documentation/cas_usage/dialogues_citations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/cas_usage/dialogues_citations/</guid>
+      <description>Écrire un dialogue ou une citation#Éléments typographiques dans Optimot#  Guillemets chevrons
+ accès direct sur 1 et 2 « un exemple »    Guillemets anglais (pour une citation / un dialogue dans une citation)
+ altgr-1 et altgr-2 “un autre exemple” „et en allemand” ⟶ altgr-3 et altgr-2    Tiret cadratin
+ altgr-B — Ça, c&amp;rsquo;en est un. – Ça, c&amp;rsquo;est le demi-cadratin ⟶ altgr-F    Ellipse</description>
+    </item>
+    
+  </channel>
+</rss>

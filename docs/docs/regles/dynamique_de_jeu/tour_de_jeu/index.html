@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta name="generator" content="Hugo 0.81.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Le tour de jeu#  En bref  En combat : 1 tour = 3 secondes
+ Toutes les actions qui s&rsquo;y déroulent sont considérées comme simultanées    Hors combat : 1 tour = 1 unité de temps abstraite
+  Dans un combat, les tours de jeu durent environ 3 secondes de la réalité des personnages : le temps pour un personnage lambda de poser une flèche sur un arc, tirer une arme de son fourreau, recharger un fusil, etc.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Le tour de jeu" />
+<meta property="og:description" content="Le tour de jeu#  En bref  En combat : 1 tour = 3 secondes
+ Toutes les actions qui s&rsquo;y déroulent sont considérées comme simultanées    Hors combat : 1 tour = 1 unité de temps abstraite
+  Dans un combat, les tours de jeu durent environ 3 secondes de la réalité des personnages : le temps pour un personnage lambda de poser une flèche sur un arc, tirer une arme de son fourreau, recharger un fusil, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/tour_de_jeu/" /><meta property="article:section" content="docs" />
+
+<meta property="og:site_name" content="Gobelin Labs" />
+
+<title>Le tour de jeu | Gobelin Labs</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
+<script defer src="/fr.search.min.fb35766ebc27771fcf05202554a0957d88471c5ac84a8cd5f45cbfbb93f1e9c1.js" integrity="sha256-&#43;zV2brwndx/PBSAlVKCVfYhHHFrISozV9Fy/u5Px6cE="></script>
+
+<script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-XSMLWGQD63', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Gobelin Labs</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Rechercher" aria-label="Rechercher" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>🎲 Règles de jeu</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d7557c9b5f7cb80b752aa94a5e403fa8" class="toggle"  />
+    <label for="section-d7557c9b5f7cb80b752aa94a5e403fa8" class="flex justify-between">
+      <a  class="">Personnage</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-861ef853d4962dd59ebc1d820d32c4b0" class="toggle"  />
+    <label for="section-861ef853d4962dd59ebc1d820d32c4b0" class="flex justify-between">
+      <a  class="">Fiche de personnage</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/fiche_personnages/attributs/" class="">Les Attributs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/fiche_personnages/capacites/" class="">Les Capacités</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/historiques_personnage/" class="">Les Historiques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/creation_personnage/" class="">Créer un personnage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/personnage/px_evolution/" class="">PX et évolution</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a22d97223b7dd361206e5c7f42668167" class="toggle" checked />
+    <label for="section-a22d97223b7dd361206e5c7f42668167" class="flex justify-between">
+      <a  class="">Dynamique de jeu</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/narration_epiphanie/" class="">Narration, Épiphanie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/tour_de_jeu/" class=" active">Le tour de jeu</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/types_actions/" class="">Les types d&#39;actions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/dynamique_de_jeu/jets_de_des/" class="">Les jets de dés</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-08a7d010bcf42ec39f2c15ca1fbc0aee" class="toggle"  />
+    <label for="section-08a7d010bcf42ec39f2c15ca1fbc0aee" class="flex justify-between">
+      <a href="https://gobelinlabs.github.io/docs/regles/affrontements/" class="">Affrontements</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/statistiques_personnage/" class="">Statistiques de personnage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/initiative/" class="">L&#39;Initiative et le Cadre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/combat_physique/" class="">Combat physique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/combat_rhetorique/" class="">Combat rhétorique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/affrontements/cartes_affrontement/" class="">Cartes d&#39;Affrontement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c03a333e1e008fa63f87139082362138" class="toggle"  />
+    <label for="section-c03a333e1e008fa63f87139082362138" class="flex justify-between">
+      <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/" class="">Résolutions dramatiques</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/conduite_acrobatique/" class="">Conduite acrobatique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/discretion/" class="">Dissimulation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/escalade/" class="">Escalade</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/filature/" class="">Filature</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/fouille/" class="">Fouille</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/pistage/" class="">Pistage</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/poursuite/" class="">Poursuite</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/reparation/" class="">Réparation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/resolutions_dramatiques/saut/" class="">Saut</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/les_dons/" class="">Les dons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-21654b724c57a6c555fa68260d6275ec" class="toggle"  />
+    <label for="section-21654b724c57a6c555fa68260d6275ec" class="flex justify-between">
+      <a  class="">Magie</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/bases_magie/" class="">Les bases de la Magie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/spheres/" class="">Sphères</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1966133739fcca28039a655fe5fbf5ff" class="toggle"  />
+    <label for="section-1966133739fcca28039a655fe5fbf5ff" class="flex justify-between">
+      <a  class="">Les Magisciens</a>
+      <span>▾</span>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/les-magisciens/charmes_et_grimoires/" class="">Charmes et Grimoires</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/regles/magie/les-magisciens/sortileges/" class="">Les Sortilèges</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>🛠️ Les créations</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/cr%C3%A9ations/inventaire/" class="">Inventaire et prix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://gobelinlabs.github.io/docs/cr%C3%A9ations/cartes_affrontement/" class="">Les cartes d&#39;Affrontement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        📝 Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Le tour de jeu</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="le-tour-de-jeu">
+  Le tour de jeu
+  <a class="anchor" href="#le-tour-de-jeu">#</a>
+</h1>
+<hr>
+<hr>
+
+
+
+
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">En bref</label>
+  <div class="book-tabs-content markdown-inner"><ul>
+<li>
+<p>En combat : 1 tour = 3 secondes</p>
+<ul>
+<li>Toutes les actions qui s&rsquo;y déroulent sont considérées comme simultanées</li>
+</ul>
+</li>
+<li>
+<p>Hors combat : 1 tour = 1 unité de temps abstraite</p>
+</li>
+</ul>
+</div></div>
+
+<p><strong>Dans un combat,</strong> les tours de jeu durent environ 3 secondes de la réalité des personnages : le temps pour un personnage lambda de poser une flèche sur un arc, tirer une arme de son fourreau, recharger un fusil, etc.</p>
+<p><strong>Hors combat,</strong> les tours n’ont pas d’équivalence en durée réelle.
+Si le temps est compté et qu’une Action Élargie est entreprise, le GM peut compter le nombre de tours.</p>
+<blockquote>
+<p><strong>GM :</strong><em>Vous avez six tours avant que vous poursuivants ne débarquent au coin du couloir.</em></p>
+</blockquote>
+<p>Parfois, au cours de la narration, le nombre de succès à accomplir peut remplacer avantageusement la notion de temps :</p>
+<blockquote>
+<p><strong>GM :</strong><em>Ton adversaire a 12 succès d&rsquo;avance sur toi. Tu vas devoir les rattraper pour te mettre à sa hauteur !</em></p>
+</blockquote>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+
+  
+    
+  
+    
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      Français
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="https://gobelinlabs.github.io/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Français
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://gobelinlabs.github.io/en/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
