@@ -13,6 +13,8 @@ Le projet Optimot est hébergé dans la communauté Bépo (dont il est l'hériti
 - site web : https://bepo.fr/wiki/Accueil
 - discord : https://bepo.fr/wiki/Contact
 
+⇒ Auteur : **@Pyjam** (présent sur le discord)
+
 ⇒ fichiers de téléchargement du driver actuellement sur discord
 {{</hint>}}
 
