@@ -11,28 +11,28 @@ title: "Dialogues et citations"
   - « un exemple »
 
 - Guillemets anglais (pour une citation / un dialogue dans une citation)
-  - `altgr-1` et `altgr-2`
+  - `AltGr-1` et `AltGr-2`
   - “un autre exemple”
-  - „et en allemand” ⟶ `altgr-3` et `altgr-2`
+  - „et en allemand” ⟶ `AltGr-3` et `AltGr-2`
 
 - Tiret cadratin
-  - `altgr-B`
+  - `AltGr-B`
   - — Ça, c'en est un.
-  - – Ça, c'est le demi-cadratin ⟶ `altgr-F` 
+  - – Ça, c'est le demi-cadratin ⟶ `AltGr-F` 
 
 - Ellipse
-  - `altgr-.`
+  - `AltGr-.`
   - Ici… il s'agit d'un seul caractère
   - ⇒ Essayez de sélectionner  `…` puis `...`
 
 - Espaces
   - insécable fine ⟶ `shift-espace`
-  - insécable normale ⟶ `altgr-espace`
-  - espace "em" ⟶ `↓altgr↓` `R + espace + espace`
+  - insécable normale ⟶ `AltGr-espace`
+  - espace "em" ⟶ `↓AltGr↓` `R + espace + espace`
 
 {{<hint info>}}
 
-**① Les ponctuations doubles sont toutes en shift** ⟶ il suffit de mainenir `shift` et de faire `espace + ponctuation` pour s'assurer que l'espace avant cette dernière est bien insécable.
+**① Les ponctuations doubles sont toutes en shift** ⟶ il suffit de maintenir `shift` et de faire `espace + ponctuation` pour s'assurer que l'espace avant cette dernière est bien insécable.
 
  ⇒ `↓shift↓` `espace + ,` ⟶ `␣;`
 

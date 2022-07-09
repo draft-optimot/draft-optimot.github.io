@@ -28,7 +28,7 @@ ___
 La principale différence réside dans un décalage de la rangée du bas, sur laquelle :
 
 - En ISO, le `B` porte un `backspace` qui permet d'effacer casser le poignet ni décaler la main,
-- En Ergo, le `backspace` central disparait afin de s'adapter au nombre de touches disponibles.
+- En Ergo, le `backspace` central disparaît afin de s'adapter au nombre de touches disponibles.
 
 ## Que choisir ?
 
@@ -42,4 +42,4 @@ La principale différence réside dans un décalage de la rangée du bas, sur la
  ► alors téléchargez la version Ergo.
 
 ### Si vous utilisez un clavier ANSI, généralement en QWERTY…
- ► sur lequel le shift gauche est étendu au détriment de la touche `<>` qui disparait, alors téléchargez la version Ergo : le décalage dû à la touche manquante est compensé par le décalage vers la droite des lettres `K`, `Y`, `È`, `.`, `W`.
+ ► sur lequel le shift gauche est étendu au détriment de la touche `<>` qui disparaît, alors téléchargez la version Ergo : le décalage dû à la touche manquante est compensé par le décalage vers la droite des lettres `K`, `Y`, `È`, `.`, `W`.

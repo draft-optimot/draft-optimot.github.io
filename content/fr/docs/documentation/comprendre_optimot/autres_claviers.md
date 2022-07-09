@@ -12,7 +12,7 @@ En Suisse et au Québec, on trouve par exemple des claviers dits « multilingue
 
 Avec la popularisation des connaissances numériques et la croissance du développement informatique, de nombreuses dispositions dites « alternatives » ont vu le jour : COLEMAK, DVORAK, BVOFRAK ou encore BÉPO (liste non exhaustive), chacune ayant ses avantages et ses inconvénients, mais toutes s'accordant pour dire une chose : AZERTY et QWERTY sont les pires dispositions jamais créées.
 
-Optimot vient s'ajouter à cette longue liste depuis décembre 2021, date de sortie de sa version béta.
+Optimot vient s'ajouter à cette longue liste depuis décembre 2021, date de sortie de sa version beta.
 
 
 ___

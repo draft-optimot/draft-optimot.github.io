@@ -41,7 +41,7 @@ Ajout de ⌘+Z à la place du BackSpace. De toutes façons ce BackSpace ne march
 ### ISO et Ergo :
 
 * Suppression de `'`
-* Décalage de `[`, `]`, `<`, `>` vers la gauche (en mirroir en Ergo)
+* Décalage de `[`, `]`, `<`, `>` vers la gauche (en miroir en Ergo)
 * Ajout de `*` en `8`
 * `*` sert pour la même série de fonctions dans Aperçu (et peut-être ailleurs).
 

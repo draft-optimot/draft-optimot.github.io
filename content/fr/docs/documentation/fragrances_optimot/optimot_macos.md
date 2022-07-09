@@ -16,7 +16,7 @@ Ci-dessous, vous trouverez toutes les fonctionnalités propres à l'environnemen
 ## Mode exposant avancé
 
 {{<hint info>}}
-Pour entrer en mode exposant, taper `altgr-e` ou `^` puis un chiffre.
+Pour entrer en mode exposant, taper `AltGr-e` ou `^` puis un chiffre.
 {{</hint>}}
 
 ### Verrouillage du mode exposant après le premier chiffre
@@ -29,8 +29,8 @@ Pour entrer en mode exposant, taper `altgr-e` ou `^` puis un chiffre.
   - `\` en passant d'indice à exposant
 - `@` émet **⁄₂₀**
 - `#` émet **⁄₁₂**
-- **⁻⁺⁼⁽⁾** sont en `altgr` directement après ^, et en `shift` et `alt` en mode exposant.
-- **₋₊₌₍₎** sont en `shift-altgr` directement après ^, et en `shift` et `alt` en mode exposant.
+- **⁻⁺⁼⁽⁾** sont en `AltGr` directement après ^, et en `shift` et `alt` en mode exposant.
+- **₋₊₌₍₎** sont en `shift-AltGr` directement après ^, et en `shift` et `alt` en mode exposant.
 
 ### Exemples
 
@@ -43,4 +43,4 @@ Pour entrer en mode exposant, taper `altgr-e` ou `^` puis un chiffre.
 
 **Écrire pour les mathématiques :**
 
-- `shift‑2 altgr‑e n shift-+ 1` ⇒ 2ⁿ⁺¹
+- `shift‑2 AltGr‑e n shift-+ 1` ⇒ 2ⁿ⁺¹

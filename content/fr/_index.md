@@ -9,7 +9,7 @@ type: docs
 {{<columns>}}
 ## Introduction
 
-Optimot est une **disposition clavier** optimisée pour le français, très foncitonnelle pour l'anglais (et d'autres langues étrangères) et qui se veut aussi éclectique que possible dans son optimisation des usages.
+Optimot est une **disposition clavier** optimisée pour le français, très fonctionnelle pour l'anglais (et d'autres langues étrangères) et qui se veut aussi éclectique que possible dans son optimisation des usages.
 
 <--->
 

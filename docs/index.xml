@@ -39,7 +39,7 @@
       
       <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</guid>
       <description>Optimot pour Mac#TODO ⇒ compléterC&amp;rsquo;est la version la plus complète, qui exploite toutes les possibilités laissées par Karabiner dans la conception des interactions de l&amp;rsquo;interface clavier. Le changelog contient les détails exhaustifs des incrémentations de ces fonctionnalités au fil des versions du projet. Ci-dessous, vous trouverez toutes les fonctionnalités propres à l&amp;rsquo;environnement Mac.
-Mode exposant avancé#Pour entrer en mode exposant, taper altgr-e ou ^ puis un chiffre.</description>
+Mode exposant avancé#Pour entrer en mode exposant, taper AltGr-e ou ^ puis un chiffre.</description>
     </item>
     
     <item>
@@ -111,7 +111,7 @@ Différence Ergo vs. ISO#La principale différence réside dans un décalage d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_fleches/</guid>
-      <description>Couche Flèches#Séquence d&amp;rsquo;accès : altgr-ST
+      <description>Couche Flèches#Séquence d&amp;rsquo;accès : AltGr-ST
 TODO ⇒ map &amp;amp; description</description>
     </item>
     
@@ -149,7 +149,7 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_science/</guid>
-      <description>Couche Science#Séquence d&amp;rsquo;accès : altgr-S
+      <description>Couche Science#Séquence d&amp;rsquo;accès : AltGr-S
 TODO ⇒ map &amp;amp; description</description>
     </item>
     
@@ -169,7 +169,7 @@ TODO ⇒ map &amp;amp; description</description>
       
       <guid>https://draft-optimot.github.io/docs/documentation/raccourcis_claviers/</guid>
       <description>Raccourcis claviers#À partir de la V1.4.4 sur MacOS#Les raccourcis clavier Optimot sont étudiés :
-Pour rester compatibles avec les applications les plus courantes, Pour assurer l&amp;rsquo;ambidextrie des raccouris les plus courants tout en restant cohérent avec les lettres elles-mêmes — c’est pourquoi certains sont présents deux fois. Ce sont donc les emplacements des lettres accentuées et des pontuations qui ont été utilisés pour dupliquer les raccourcis les plus courants).</description>
+Pour rester compatibles avec les applications les plus courantes, Pour assurer l&amp;rsquo;ambidextrie des raccourcis les plus courants tout en restant cohérent avec les lettres elles-mêmes — c’est pourquoi certains sont présents deux fois. Ce sont donc les emplacements des lettres accentuées et des ponctuations qui ont été utilisés pour dupliquer les raccourcis les plus courants).</description>
     </item>
     
     <item>
@@ -188,8 +188,8 @@ Cette position est plus confortable que le placement dactylo en \ \.</descriptio
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_grec/</guid>
-      <description>Couche Grec#Séquence d&amp;rsquo;accès : altgr-G
-Séquence de verrouillage (macOS uniquement) : altgr-G altgr-G
+      <description>Couche Grec#Séquence d&amp;rsquo;accès : AltGr-G
+Séquence de verrouillage (macOS uniquement) : AltGr-G AltGr-G
 TODO ⇒ map &amp;amp; description</description>
     </item>
     
@@ -210,7 +210,7 @@ Il faut simplement savoir que derrière ces options à activer ou désactiver se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</guid>
-      <description>Couche Latin#Séquence d&amp;rsquo;accès : altgr-R
+      <description>Couche Latin#Séquence d&amp;rsquo;accès : AltGr-R
 TODO ⇒ map &amp;amp; description</description>
     </item>
     
@@ -244,9 +244,9 @@ Lenovo Legion 5 et assimilés#Certains nouveaux modèles d&amp;rsquo;ordinateu
       <guid>https://draft-optimot.github.io/docs/documentation/cas_usage/dialogues_citations/</guid>
       <description>Écrire un dialogue ou une citation#Éléments typographiques dans Optimot#Guillemets chevrons
 accès direct sur 1 et 2 « un exemple » Guillemets anglais (pour une citation / un dialogue dans une citation)
-altgr-1 et altgr-2 “un autre exemple” „et en allemand” ⟶ altgr-3 et altgr-2 Tiret cadratin
-altgr-B — Ça, c&amp;rsquo;en est un. – Ça, c&amp;rsquo;est le demi-cadratin ⟶ altgr-F Ellipse
-altgr-. Ici… il s&amp;rsquo;agit d&amp;rsquo;un seul caractère ⇒ Essayez de sélectionner … puis .</description>
+AltGr-1 et AltGr-2 “un autre exemple” „et en allemand” ⟶ AltGr-3 et AltGr-2 Tiret cadratin
+AltGr-B — Ça, c&amp;rsquo;en est un. – Ça, c&amp;rsquo;est le demi-cadratin ⟶ AltGr-F Ellipse
+AltGr-. Ici… il s&amp;rsquo;agit d&amp;rsquo;un seul caractère ⇒ Essayez de sélectionner … puis .</description>
     </item>
     
   </channel>

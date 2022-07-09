@@ -5,7 +5,7 @@ weight: 6
 
 # Couche Latin
 
-**Séquence d'accès :** `altgr-R`
+**Séquence d'accès :** `AltGr-R`
 
 {{<hint danger>}}
 TODO ⇒ map & description

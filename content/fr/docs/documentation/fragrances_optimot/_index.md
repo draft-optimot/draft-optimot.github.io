@@ -13,7 +13,7 @@ Chaque système d'exploitation a sa manière de gérer les drivers de claviers e
 1. Harmoniser tous les drivers en s'arrêtant aux limitations les plus fortes (celles de Windows),
 2. Développer trois drivers fondés sur la même base mais qui exploitent chacun au maximum les possibilités que lui donne l'OS pour lequel il est développé.
 
-Dans le cas d'Optimot, le choix a été fait de **tirer le maximum de chaque OS (Mac, Linux, Windows)** et de produire trois drivers — trois fragrances d'Optimot — en commençant par le maximum puis en élagant les fonctionnalités non-compatibles lors du portage vers les autres OS.
+Dans le cas d'Optimot, le choix a été fait de **tirer le maximum de chaque OS (Mac, Linux, Windows)** et de produire trois drivers — trois fragrances d'Optimot — en commençant par le maximum puis en élaguant les fonctionnalités non-compatibles lors du portage vers les autres OS.
 
 {{<button relref="/optimot_macos">}}Voir les particularités macOS{{</button>}}
 
@@ -30,7 +30,7 @@ Pour faire simple :
 3. Le driver Linux reprend toutes les fonctionnalités originales,
 4. Le driver Windows en perd un certain nombre.
 
-Quand on parle de fonctionalités, on parle ici :
+Quand on parle de fonctionnalités, on parle ici :
 
 - De certains caractères que Windows ne permet pas d'intégrer dans un driver de clavier,
 - De certaines combinaisons de touches que Windows interdit.
@@ -40,7 +40,7 @@ La description de ces alternatives est donnée dans les pages dédiées : [Mac
 {{<hint info>}}
 ✅ L'index des caractères pris en charge par Optimot est sur [Bépoète.fr/optimot](https://www.xn--bpote-6rae.fr/optimot)
 
- ⇒ 🔎 Avec une fonciton recherche !!
+ ⇒ 🔎 Avec une fonction recherche !!
 
  ⇒ Les caractères disponibles uniquement sur Mac et Linux sont affichés *sur un fond jaune*.
 {{</hint>}}
