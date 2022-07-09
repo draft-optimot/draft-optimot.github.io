@@ -2,23 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://draft-optimot.github.io/docs/documentation/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/change_log/</loc>
+  </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/</loc>
   </url><url>
-    <loc>https://draft-optimot.github.io/docs/documentation/licence/</loc>
+    <loc>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_macos/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pourquoi_optimot/</loc>
   </url><url>
-    <loc>https://draft-optimot.github.io/docs/documentation/</loc>
+    <loc>https://draft-optimot.github.io/docs/logiciel/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/cibles_usagers/</loc>
   </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_linux/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_linux/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/telecharger/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_windows/</loc>
+  </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pas_azerty/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_windows/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/autres_claviers/</loc>
   </url><url>
-    <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/touches_et_dispositions/</loc>
+    <loc>https://draft-optimot.github.io/docs/documentation/quels_claviers/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/cas_usage/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/touches_et_dispositions/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/logiciel/licence/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://draft-optimot.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://draft-optimot.github.io/posts/"
+                />
   </url><url>
     <loc>https://draft-optimot.github.io/</loc>
     <xhtml:link
@@ -68,18 +104,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://draft-optimot.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://draft-optimot.github.io/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://draft-optimot.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://draft-optimot.github.io/posts/"
                 />
   </url>
 </urlset>

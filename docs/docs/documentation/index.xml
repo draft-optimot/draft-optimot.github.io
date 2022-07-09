@@ -6,14 +6,14 @@
     <description>Recent content in 📖 Documentation on Optimot</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Licence</title>
-      <link>https://draft-optimot.github.io/docs/documentation/licence/</link>
+      <title>Quels claviers ?</title>
+      <link>https://draft-optimot.github.io/docs/documentation/quels_claviers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://draft-optimot.github.io/docs/documentation/licence/</guid>
-      <description>LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
-Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
-Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés  Ne peuvent pas# Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci  Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
+      <guid>https://draft-optimot.github.io/docs/documentation/quels_claviers/</guid>
+      <description>Quels claviers utiliser ?#Tous !#Absolument tous les claviers fonctionnent, mais certains sont peut-être plus indiqués que d&amp;rsquo;autres…
+TODO ⇒ compléter + imagesQuelques claviers problématiques#Ces claviers ne vous empêcheront pas de taper en Optimot mais leurs agencements alternatifs rendront l&amp;rsquo;exercice un petit peu moins pertinent car l&amp;rsquo;emplacement des caractères est crucial dans la conception de la disposition.
+Lenovo Legion 5 et assimilés#Certains nouveaux modèles d&amp;rsquo;ordinateurs portables présentent un clavier sur lequel la touche Enter a été ramenée à une seule rangée de hauteur, et élargie, de telle sorte que la touche * μ habituellement située au creux de celle-ci se retrouve tout en haut, tout à droite.</description>
     </item>
     
   </channel>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>💾 Logiciel on Optimot</title>
+    <link>https://draft-optimot.github.io/docs/logiciel/</link>
+    <description>Recent content in 💾 Logiciel on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/logiciel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change log</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/change_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/change_log/</guid>
+      <description>Historique des versions d&amp;rsquo;Optimot#TODO ⇒ mise en pageVersions actuelles#Option Mac Linux Windows Pour clavier Ergo V1.4.4 V1.3.1 V1.3 ⇐ Ergo / QWERTY ISO V1.4.4 V1.3.1 V1.3 ⇐ AZERTY V1.4.4#Nouveaux raccourcis clavier pour macOS 12.#Depuis macOS 12, Apple a changé le mode de fonctionnement des raccourcis clavier pour les dispositions autres que Azerty. Désormais ce sont les raccourcis clavier Qwerty qui sont attendus, même pour les dispositions déclarées comme françaises telles que Optimot.</description>
+    </item>
+    
+    <item>
+      <title>Télécharger</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/telecharger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/telecharger/</guid>
+      <description>Télécharger#Liens de téléchargement d&amp;rsquo;Optimot#Option macOS 12+ macOS ⩽11 Linux Windows Pour clavier Ergo V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ matriciels / colonnes / ANSI (ex. QWERTY) ISO V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ ISO (ex. AZERTY) TODO ⇒ ajouter les liensOptions Ergo vs. ISO#TODO ⇒ ajouter imagesSi vous utilisez un clavier classique ISO, généralement en AZERTY…#► alors téléchargez la version ISO.</description>
+    </item>
+    
+    <item>
+      <title>Licence</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/licence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/licence/</guid>
+      <description>TODO ⇒ licence CC ?LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
+Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
+Peuvent#Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés Ne peuvent pas#Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
+    </item>
+    
+  </channel>
+</rss>

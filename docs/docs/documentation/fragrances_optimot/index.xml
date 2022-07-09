@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fragrances d&#39;Optimot on Optimot</title>
+    <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/</link>
+    <description>Recent content in Fragrances d&#39;Optimot on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/fragrances_optimot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimot pour Mac</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</guid>
+      <description>Optimot pour Mac#TODO ⇒ compléterC&amp;rsquo;est la version la plus complète, qui exploite toutes les possibilités laissées par Karabiner dans la conception des interactions de l&amp;rsquo;interface clavier. Le changelog contient les détails exhaustifs des incrémentations de ces fonctionnalités au fil des versions du projet. Ci-dessous, vous trouverez toutes les fonctionnalités propres à l&amp;rsquo;environnement Mac.
+Mode exposant avancé#Pour entrer en mode exposant, taper altgr-e ou ^ puis un chiffre.</description>
+    </item>
+    
+    <item>
+      <title>Optimot pour Linux</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_linux/</guid>
+      <description>Optimot pour Linux#TODO</description>
+    </item>
+    
+    <item>
+      <title>Optimot pour Windows</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_windows/</guid>
+      <description>Optimot pour Windows#TODO</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,14 +6,31 @@
     <description>Recent content in Accueil on Optimot</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Licence</title>
-      <link>https://draft-optimot.github.io/docs/documentation/licence/</link>
+      <title>Change log</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/change_log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://draft-optimot.github.io/docs/documentation/licence/</guid>
-      <description>LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
-Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
-Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés  Ne peuvent pas# Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci  Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
+      <guid>https://draft-optimot.github.io/docs/logiciel/change_log/</guid>
+      <description>Historique des versions d&amp;rsquo;Optimot#TODO ⇒ mise en pageVersions actuelles#Option Mac Linux Windows Pour clavier Ergo V1.4.4 V1.3.1 V1.3 ⇐ Ergo / QWERTY ISO V1.4.4 V1.3.1 V1.3 ⇐ AZERTY V1.4.4#Nouveaux raccourcis clavier pour macOS 12.#Depuis macOS 12, Apple a changé le mode de fonctionnement des raccourcis clavier pour les dispositions autres que Azerty. Désormais ce sont les raccourcis clavier Qwerty qui sont attendus, même pour les dispositions déclarées comme françaises telles que Optimot.</description>
+    </item>
+    
+    <item>
+      <title>Installer sur macOS</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_macos/</guid>
+      <description>Installer sur macOS#TODO</description>
+    </item>
+    
+    <item>
+      <title>Optimot pour Mac</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_macos/</guid>
+      <description>Optimot pour Mac#TODO ⇒ compléterC&amp;rsquo;est la version la plus complète, qui exploite toutes les possibilités laissées par Karabiner dans la conception des interactions de l&amp;rsquo;interface clavier. Le changelog contient les détails exhaustifs des incrémentations de ces fonctionnalités au fil des versions du projet. Ci-dessous, vous trouverez toutes les fonctionnalités propres à l&amp;rsquo;environnement Mac.
+Mode exposant avancé#Pour entrer en mode exposant, taper altgr-e ou ^ puis un chiffre.</description>
     </item>
     
     <item>
@@ -22,11 +39,11 @@ Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pourquoi_optimot/</guid>
-      <description>Pourquoi Optimot ?#Disposition des caractères sur le clavier Optimot#€ 1 2 3 4 5 6 7 8 9 0 @ #
- À J O É B F D L &#39; Q X Ç
- A I E U , P T S R N ^ Z
- K Y È . W ⇦ G C M H V
- ⇒ Oui, ⇦ prend la place du B de l&amp;rsquo;AZERTY pour donner un backspace en plein milieu du clavier !</description>
+      <description>Pourquoi Optimot ?#Disposition des caractères sur le clavier Optimot#€ 1 2 3 4 5 6 7 8 9 0 @ #
+À J O É B F D L &#39; Q X Ç
+A I E U , P T S R N ^ Z
+K Y È . W ⇦ G C M H V
+⇒ Oui, ⇦ prend la place du B de l&amp;rsquo;AZERTY pour donner un backspace en plein milieu du clavier !</description>
     </item>
     
     <item>
@@ -35,9 +52,45 @@ Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/cibles_usagers/</guid>
-      <description>À qui est-ce destiné ?#De quoi satisfaire différents corps de métier…# ✓ L&amp;rsquo;intégrateur print / web fatigué de devoir aller chercher son insécable dans la table des caractères,
- ✓ Le professeur de maths qui a besoin d&amp;rsquo;exprimer une formule directement dans son document / support de communication avec les étudiants, y compris en texte but (discord, chat de la classe virtuelle, …),
- ✓ Le maquettiste d&amp;rsquo;une maison d&amp;rsquo;édition qui a besoin des symboles habituels pour les dialogues,</description>
+      <description>À qui est-ce destiné ?#De quoi satisfaire différents corps de métier…#✓ L&amp;rsquo;intégrateur print / web fatigué de devoir aller chercher son insécable dans la table des caractères,
+✓ Le professeur de maths qui a besoin d&amp;rsquo;exprimer une formule directement dans son document / support de communication avec les étudiants, y compris en texte but (discord, chat de la classe virtuelle, …),
+✓ Le maquettiste d&amp;rsquo;une maison d&amp;rsquo;édition qui a besoin des symboles habituels pour les dialogues,</description>
+    </item>
+    
+    <item>
+      <title>Installer sur Linux</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_linux/</guid>
+      <description>Installer sur Linux#TODO</description>
+    </item>
+    
+    <item>
+      <title>Optimot pour Linux</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_linux/</guid>
+      <description>Optimot pour Linux#TODO</description>
+    </item>
+    
+    <item>
+      <title>Télécharger</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/telecharger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/telecharger/</guid>
+      <description>Télécharger#Liens de téléchargement d&amp;rsquo;Optimot#Option macOS 12+ macOS ⩽11 Linux Windows Pour clavier Ergo V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ matriciels / colonnes / ANSI (ex. QWERTY) ISO V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ ISO (ex. AZERTY) TODO ⇒ ajouter les liensOptions Ergo vs. ISO#TODO ⇒ ajouter imagesSi vous utilisez un clavier classique ISO, généralement en AZERTY…#► alors téléchargez la version ISO.</description>
+    </item>
+    
+    <item>
+      <title>Installer sur Windows</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_windows/</guid>
+      <description>Installer sur Windows#TODO</description>
     </item>
     
     <item>
@@ -46,8 +99,17 @@ Peuvent# Utiliser la disposition, ses pilotes, sa documentation, et ses produ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pas_azerty/</guid>
-      <description>Mais… c&amp;rsquo;est pas Azerty ?!#À lire si vous n&amp;rsquo;avez jamais entendu parler le &amp;ldquo;Layout&amp;rdquo; ou de &amp;ldquo;Disposition&amp;rdquo; pour les claviers► Non : Optimot est une disposition alternative. Comme Bépo, elle a été conçue pour la frappe francophone mais propose aussi de très bonnes performances en anglais.
+      <description>Mais… c&amp;rsquo;est pas Azerty ?!#À lire si vous n&amp;rsquo;avez jamais entendu parler le &amp;ldquo;Layout&amp;rdquo; ou de &amp;ldquo;Disposition&amp;rdquo; pour les claviers► Non : Optimot est une disposition alternative. Comme Bépo, elle a été conçue pour la frappe francophone mais propose aussi de très bonnes performances en anglais.
 Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo;est que dites à votre ordinateur, par l&amp;rsquo;intermédiaire d&amp;rsquo;un logiciel, quel symbole doit apparaître sous le curseur lorsque telle ou telle touche du clavier est enfoncée.</description>
+    </item>
+    
+    <item>
+      <title>Optimot pour Windows</title>
+      <link>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/fragrances_optimot/optimot_windows/</guid>
+      <description>Optimot pour Windows#TODO</description>
     </item>
     
     <item>
@@ -56,7 +118,18 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/autres_claviers/</guid>
-      <description>Il existe beaucoup plus de dispositions de claviers que vous ne l&amp;rsquo;imaginez…#Classiquement, on obtient A Z E R T Y en tapant les 6 premières touches du clavier, ce qui donne son nom à la disposition éponyme usuelle en France — il y a fort à parier que vous ayez aussi entendu parler de QWERTY. Mais saviez-vous que tous les territoires francophones n&amp;rsquo;utilisent pas le même clavier, et qu&amp;rsquo;AZERTY n&amp;rsquo;est en fait pas du tout pensé pour le français ?</description>
+      <description>Il existe beaucoup plus de dispositions de claviers que vous ne l&amp;rsquo;imaginez…#Classiquement, on obtient A Z E R T Y en tapant les 6 premières touches du clavier, ce qui donne son nom à la disposition éponyme usuelle en France — il y a fort à parier que vous ayez aussi entendu parler de QWERTY. Mais saviez-vous que tous les territoires francophones n&amp;rsquo;utilisent pas le même clavier, et qu&amp;rsquo;AZERTY n&amp;rsquo;est en fait pas du tout pensé pour le français ?</description>
+    </item>
+    
+    <item>
+      <title>Quels claviers ?</title>
+      <link>https://draft-optimot.github.io/docs/documentation/quels_claviers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/quels_claviers/</guid>
+      <description>Quels claviers utiliser ?#Tous !#Absolument tous les claviers fonctionnent, mais certains sont peut-être plus indiqués que d&amp;rsquo;autres…
+TODO ⇒ compléter + imagesQuelques claviers problématiques#Ces claviers ne vous empêcheront pas de taper en Optimot mais leurs agencements alternatifs rendront l&amp;rsquo;exercice un petit peu moins pertinent car l&amp;rsquo;emplacement des caractères est crucial dans la conception de la disposition.
+Lenovo Legion 5 et assimilés#Certains nouveaux modèles d&amp;rsquo;ordinateurs portables présentent un clavier sur lequel la touche Enter a été ramenée à une seule rangée de hauteur, et élargie, de telle sorte que la touche * μ habituellement située au creux de celle-ci se retrouve tout en haut, tout à droite.</description>
     </item>
     
     <item>
@@ -65,9 +138,20 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/touches_et_dispositions/</guid>
-      <description>Distinguons touches et disposition#► Ce n&amp;rsquo;est pas parce que votre clavier est imprimé AZERTY qu&amp;rsquo;il est obligé d&amp;rsquo;écrire en AZERTY.
+      <description>Distinguons touches et disposition#► Ce n&amp;rsquo;est pas parce que votre clavier est imprimé AZERTY qu&amp;rsquo;il est obligé d&amp;rsquo;écrire en AZERTY.
 Vous avez peut-être déjà expérimenté les options linguistiques de votre ordinateur, auquel cas vous aurez remarqué que vos touches A Z E R T Y peuvent renvoyer Q W E R T Y si vous calibrez votre ordinateur en langue anglaise (donc en QWERTY).
 Il faut simplement savoir que derrière ces options à activer ou désactiver se trouvent tout simplement des drivers.</description>
+    </item>
+    
+    <item>
+      <title>Licence</title>
+      <link>https://draft-optimot.github.io/docs/logiciel/licence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/logiciel/licence/</guid>
+      <description>TODO ⇒ licence CC ?LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
+Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
+Peuvent#Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés Ne peuvent pas#Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
     </item>
     
     <item>
@@ -76,10 +160,11 @@ Il faut simplement savoir que derrière ces options à activer ou désactiver se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/cas_usage/dialogues_citations/</guid>
-      <description>Écrire un dialogue ou une citation#Éléments typographiques dans Optimot#  Guillemets chevrons
- accès direct sur 1 et 2 « un exemple »    Guillemets anglais (pour une citation / un dialogue dans une citation)
- altgr-1 et altgr-2 “un autre exemple” „et en allemand” ⟶ altgr-3 et altgr-2    Tiret cadratin
- altgr-B — Ça, c&amp;rsquo;en est un. – Ça, c&amp;rsquo;est le demi-cadratin ⟶ altgr-F    Ellipse</description>
+      <description>Écrire un dialogue ou une citation#Éléments typographiques dans Optimot#Guillemets chevrons
+accès direct sur 1 et 2 « un exemple » Guillemets anglais (pour une citation / un dialogue dans une citation)
+altgr-1 et altgr-2 “un autre exemple” „et en allemand” ⟶ altgr-3 et altgr-2 Tiret cadratin
+altgr-B — Ça, c&amp;rsquo;en est un. – Ça, c&amp;rsquo;est le demi-cadratin ⟶ altgr-F Ellipse
+altgr-. Ici… il s&amp;rsquo;agit d&amp;rsquo;un seul caractère ⇒ Essayez de sélectionner … puis .</description>
     </item>
     
   </channel>

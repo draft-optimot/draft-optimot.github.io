@@ -1,8 +1,10 @@
 ---
 title: "Licence"
-weight: 1
+weight: 10
 ---
-
+{{<hint danger>}}
+TODO ⇒ licence CC ?
+{{</hint>}}
 
 # LICENCE OPTIMOT
 

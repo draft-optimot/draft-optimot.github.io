@@ -17,5 +17,5 @@ Optimot vient s'ajouter à cette longue liste depuis décembre 2021, date de sor
 
 ___
 
-{{< button relref="/pas_azerty.md" align="right" >}}◄ Précédent{{< /button >}}
-{{< button relref="/touches_et_dispositions.md" align="right" >}}Suivant ►{{< /button >}}
+{{< button relref="/pas_azerty.md">}}◄ Précédent{{< /button >}}
+{{< button relref="/touches_et_dispositions.md">}}Suivant ►{{< /button >}}

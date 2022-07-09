@@ -11,11 +11,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pourquoi_optimot/</guid>
-      <description>Pourquoi Optimot ?#Disposition des caractères sur le clavier Optimot#€ 1 2 3 4 5 6 7 8 9 0 @ #
- À J O É B F D L &#39; Q X Ç
- A I E U , P T S R N ^ Z
- K Y È . W ⇦ G C M H V
- ⇒ Oui, ⇦ prend la place du B de l&amp;rsquo;AZERTY pour donner un backspace en plein milieu du clavier !</description>
+      <description>Pourquoi Optimot ?#Disposition des caractères sur le clavier Optimot#€ 1 2 3 4 5 6 7 8 9 0 @ #
+À J O É B F D L &#39; Q X Ç
+A I E U , P T S R N ^ Z
+K Y È . W ⇦ G C M H V
+⇒ Oui, ⇦ prend la place du B de l&amp;rsquo;AZERTY pour donner un backspace en plein milieu du clavier !</description>
     </item>
     
     <item>
@@ -24,9 +24,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/cibles_usagers/</guid>
-      <description>À qui est-ce destiné ?#De quoi satisfaire différents corps de métier…# ✓ L&amp;rsquo;intégrateur print / web fatigué de devoir aller chercher son insécable dans la table des caractères,
- ✓ Le professeur de maths qui a besoin d&amp;rsquo;exprimer une formule directement dans son document / support de communication avec les étudiants, y compris en texte but (discord, chat de la classe virtuelle, …),
- ✓ Le maquettiste d&amp;rsquo;une maison d&amp;rsquo;édition qui a besoin des symboles habituels pour les dialogues,</description>
+      <description>À qui est-ce destiné ?#De quoi satisfaire différents corps de métier…#✓ L&amp;rsquo;intégrateur print / web fatigué de devoir aller chercher son insécable dans la table des caractères,
+✓ Le professeur de maths qui a besoin d&amp;rsquo;exprimer une formule directement dans son document / support de communication avec les étudiants, y compris en texte but (discord, chat de la classe virtuelle, …),
+✓ Le maquettiste d&amp;rsquo;une maison d&amp;rsquo;édition qui a besoin des symboles habituels pour les dialogues,</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/pas_azerty/</guid>
-      <description>Mais… c&amp;rsquo;est pas Azerty ?!#À lire si vous n&amp;rsquo;avez jamais entendu parler le &amp;ldquo;Layout&amp;rdquo; ou de &amp;ldquo;Disposition&amp;rdquo; pour les claviers► Non : Optimot est une disposition alternative. Comme Bépo, elle a été conçue pour la frappe francophone mais propose aussi de très bonnes performances en anglais.
+      <description>Mais… c&amp;rsquo;est pas Azerty ?!#À lire si vous n&amp;rsquo;avez jamais entendu parler le &amp;ldquo;Layout&amp;rdquo; ou de &amp;ldquo;Disposition&amp;rdquo; pour les claviers► Non : Optimot est une disposition alternative. Comme Bépo, elle a été conçue pour la frappe francophone mais propose aussi de très bonnes performances en anglais.
 Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo;est que dites à votre ordinateur, par l&amp;rsquo;intermédiaire d&amp;rsquo;un logiciel, quel symbole doit apparaître sous le curseur lorsque telle ou telle touche du clavier est enfoncée.</description>
     </item>
     
@@ -45,7 +45,7 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/autres_claviers/</guid>
-      <description>Il existe beaucoup plus de dispositions de claviers que vous ne l&amp;rsquo;imaginez…#Classiquement, on obtient A Z E R T Y en tapant les 6 premières touches du clavier, ce qui donne son nom à la disposition éponyme usuelle en France — il y a fort à parier que vous ayez aussi entendu parler de QWERTY. Mais saviez-vous que tous les territoires francophones n&amp;rsquo;utilisent pas le même clavier, et qu&amp;rsquo;AZERTY n&amp;rsquo;est en fait pas du tout pensé pour le français ?</description>
+      <description>Il existe beaucoup plus de dispositions de claviers que vous ne l&amp;rsquo;imaginez…#Classiquement, on obtient A Z E R T Y en tapant les 6 premières touches du clavier, ce qui donne son nom à la disposition éponyme usuelle en France — il y a fort à parier que vous ayez aussi entendu parler de QWERTY. Mais saviez-vous que tous les territoires francophones n&amp;rsquo;utilisent pas le même clavier, et qu&amp;rsquo;AZERTY n&amp;rsquo;est en fait pas du tout pensé pour le français ?</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/touches_et_dispositions/</guid>
-      <description>Distinguons touches et disposition#► Ce n&amp;rsquo;est pas parce que votre clavier est imprimé AZERTY qu&amp;rsquo;il est obligé d&amp;rsquo;écrire en AZERTY.
+      <description>Distinguons touches et disposition#► Ce n&amp;rsquo;est pas parce que votre clavier est imprimé AZERTY qu&amp;rsquo;il est obligé d&amp;rsquo;écrire en AZERTY.
 Vous avez peut-être déjà expérimenté les options linguistiques de votre ordinateur, auquel cas vous aurez remarqué que vos touches A Z E R T Y peuvent renvoyer Q W E R T Y si vous calibrez votre ordinateur en langue anglaise (donc en QWERTY).
 Il faut simplement savoir que derrière ces options à activer ou désactiver se trouvent tout simplement des drivers.</description>
     </item>
