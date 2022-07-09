@@ -83,16 +83,6 @@
     <loc>https://draft-optimot.github.io/docs/documentation/cas_usage/dialogues_citations/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://draft-optimot.github.io/en/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://draft-optimot.github.io/docs/"
-                />
   </url><url>
     <loc>https://draft-optimot.github.io/tags/</loc>
     <xhtml:link
