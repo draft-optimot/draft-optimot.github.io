@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Les couches d&#39;Optimot on Optimot</title>
+    <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/</link>
+    <description>Recent content in Les couches d&#39;Optimot on Optimot</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/couches_optimot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accès direct</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</guid>
+      <description>Couche en accès direct#</description>
+    </item>
+    
+    <item>
+      <title>Couche &#34; ^ &#34;</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_circonflexe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_circonflexe/</guid>
+      <description>Couche ^ (circonflexe)#Séquence d&amp;rsquo;accès : ^
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
+      <title>Couche Flèches</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_fleches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_fleches/</guid>
+      <description>Couche Flèches#Séquence d&amp;rsquo;accès : altgr-ST
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
+      <title>Couche Science</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_science/</guid>
+      <description>Couche Science#Séquence d&amp;rsquo;accès : altgr-S
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
+      <title>Couche Grec</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_grec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_grec/</guid>
+      <description>Couche Grec#Séquence d&amp;rsquo;accès : altgr-G
+Séquence de verrouillage (macOS uniquement) : altgr-G altgr-G
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
+      <title>Couche Latin</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</guid>
+      <description>Couche Latin#Séquence d&amp;rsquo;accès : altgr-R
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+  </channel>
+</rss>

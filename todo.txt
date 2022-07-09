@@ -1,0 +1,5 @@
+[ ] Harmoniser le format de séquences de touches `altgr-st`, `altgr-ST`, `altgr-S + altgr-T`, etc…
+[ ] Ajouter metadata pour toutes les pages (SEO)
+[ ] Illustrer le site web
+[ ] Produire un script de design graphique pour les layout (LaTeX / Python ?) ⇒ harmoniser et accorder à l'identité visuelle
+[ ] Créer le logo

@@ -6,6 +6,26 @@
     <description>Recent content in 📖 Documentation on Optimot</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Raccourcis claviers</title>
+      <link>https://draft-optimot.github.io/docs/documentation/raccourcis_claviers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/raccourcis_claviers/</guid>
+      <description>Raccourcis claviers#À partir de la V1.4.4 sur MacOS#Les raccourcis clavier Optimot sont étudiés :
+Pour rester compatibles avec les applications les plus courantes, Pour assurer l&amp;rsquo;ambidextrie des raccouris les plus courants tout en restant cohérent avec les lettres elles-mêmes — c’est pourquoi certains sont présents deux fois. Ce sont donc les emplacements des lettres accentuées et des pontuations qui ont été utilisés pour dupliquer les raccourcis les plus courants).</description>
+    </item>
+    
+    <item>
+      <title>Conseils d&#39;utilisation</title>
+      <link>https://draft-optimot.github.io/docs/documentation/conseil_utilisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/conseil_utilisation/</guid>
+      <description>Conseils d&amp;rsquo;utilisation#Placement des mains avec un clavier ISO#TODO ⇒ illustrerLa version d’Optimot pour les claviers décalés (claviers ISO, classiques pour l&amp;rsquo;AZERTY) est spécifiquement conçue pour être utilisée en plaçant les mains en / \ appelé « Variante A » (angle-mod en anglais). Le È (d’Optimot) est pressé par le majeur gauche, le point par l’index.
+Cette position est plus confortable que le placement dactylo en \ \.</description>
+    </item>
+    
+    <item>
       <title>Quels claviers ?</title>
       <link>https://draft-optimot.github.io/docs/documentation/quels_claviers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

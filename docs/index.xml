@@ -6,6 +6,15 @@
     <description>Recent content in Accueil on Optimot</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Accès direct</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</guid>
+      <description>Couche en accès direct#</description>
+    </item>
+    
+    <item>
       <title>Change log</title>
       <link>https://draft-optimot.github.io/docs/logiciel/change_log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -58,6 +67,16 @@ K Y È . W ⇦ G C M H V
     </item>
     
     <item>
+      <title>Couche &#34; ^ &#34;</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_circonflexe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_circonflexe/</guid>
+      <description>Couche ^ (circonflexe)#Séquence d&amp;rsquo;accès : ^
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
       <title>Installer sur Linux</title>
       <link>https://draft-optimot.github.io/docs/logiciel/installer_utiliser/installer_linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -81,7 +100,19 @@ K Y È . W ⇦ G C M H V
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://draft-optimot.github.io/docs/logiciel/telecharger/</guid>
-      <description>Télécharger#Liens de téléchargement d&amp;rsquo;Optimot#Option macOS 12+ macOS ⩽11 Linux Windows Pour clavier Ergo V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ matriciels / colonnes / ANSI (ex. QWERTY) ISO V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ ISO (ex. AZERTY) TODO ⇒ ajouter les liensOptions Ergo vs. ISO#TODO ⇒ ajouter imagesSi vous utilisez un clavier classique ISO, généralement en AZERTY…#► alors téléchargez la version ISO.</description>
+      <description>Télécharger#Liens de téléchargement d&amp;rsquo;Optimot#Option macOS 12+ macOS ⩽11 Linux Windows Pour clavier Ergo V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ matriciels / colonnes / ANSI (ex. QWERTY) ISO V1.4.4 V1.4.3 V1.3.1 V1.3 ⇐ ISO (ex. AZERTY) TODO ⇒ ajouter les liensOptions Ergo vs. ISO#Version ISO d&amp;rsquo;Optimot
+Version ergo d&amp;rsquo;Optimot
+Différence Ergo vs. ISO#La principale différence réside dans un décalage de la rangée du bas, sur laquelle :</description>
+    </item>
+    
+    <item>
+      <title>Couche Flèches</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_fleches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_fleches/</guid>
+      <description>Couche Flèches#Séquence d&amp;rsquo;accès : altgr-ST
+TODO ⇒ map &amp;amp; description</description>
     </item>
     
     <item>
@@ -113,6 +144,16 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
     </item>
     
     <item>
+      <title>Couche Science</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_science/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_science/</guid>
+      <description>Couche Science#Séquence d&amp;rsquo;accès : altgr-S
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
       <title>D&#39;autres claviers</title>
       <link>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/autres_claviers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,14 +163,34 @@ Le principe d&amp;rsquo;une disposition clavier (layout en anglais), c&amp;rsquo
     </item>
     
     <item>
-      <title>Quels claviers ?</title>
-      <link>https://draft-optimot.github.io/docs/documentation/quels_claviers/</link>
+      <title>Raccourcis claviers</title>
+      <link>https://draft-optimot.github.io/docs/documentation/raccourcis_claviers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://draft-optimot.github.io/docs/documentation/quels_claviers/</guid>
-      <description>Quels claviers utiliser ?#Tous !#Absolument tous les claviers fonctionnent, mais certains sont peut-être plus indiqués que d&amp;rsquo;autres…
-TODO ⇒ compléter + imagesQuelques claviers problématiques#Ces claviers ne vous empêcheront pas de taper en Optimot mais leurs agencements alternatifs rendront l&amp;rsquo;exercice un petit peu moins pertinent car l&amp;rsquo;emplacement des caractères est crucial dans la conception de la disposition.
-Lenovo Legion 5 et assimilés#Certains nouveaux modèles d&amp;rsquo;ordinateurs portables présentent un clavier sur lequel la touche Enter a été ramenée à une seule rangée de hauteur, et élargie, de telle sorte que la touche * μ habituellement située au creux de celle-ci se retrouve tout en haut, tout à droite.</description>
+      <guid>https://draft-optimot.github.io/docs/documentation/raccourcis_claviers/</guid>
+      <description>Raccourcis claviers#À partir de la V1.4.4 sur MacOS#Les raccourcis clavier Optimot sont étudiés :
+Pour rester compatibles avec les applications les plus courantes, Pour assurer l&amp;rsquo;ambidextrie des raccouris les plus courants tout en restant cohérent avec les lettres elles-mêmes — c’est pourquoi certains sont présents deux fois. Ce sont donc les emplacements des lettres accentuées et des pontuations qui ont été utilisés pour dupliquer les raccourcis les plus courants).</description>
+    </item>
+    
+    <item>
+      <title>Conseils d&#39;utilisation</title>
+      <link>https://draft-optimot.github.io/docs/documentation/conseil_utilisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/conseil_utilisation/</guid>
+      <description>Conseils d&amp;rsquo;utilisation#Placement des mains avec un clavier ISO#TODO ⇒ illustrerLa version d’Optimot pour les claviers décalés (claviers ISO, classiques pour l&amp;rsquo;AZERTY) est spécifiquement conçue pour être utilisée en plaçant les mains en / \ appelé « Variante A » (angle-mod en anglais). Le È (d’Optimot) est pressé par le majeur gauche, le point par l’index.
+Cette position est plus confortable que le placement dactylo en \ \.</description>
+    </item>
+    
+    <item>
+      <title>Couche Grec</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_grec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_grec/</guid>
+      <description>Couche Grec#Séquence d&amp;rsquo;accès : altgr-G
+Séquence de verrouillage (macOS uniquement) : altgr-G altgr-G
+TODO ⇒ map &amp;amp; description</description>
     </item>
     
     <item>
@@ -144,6 +205,16 @@ Il faut simplement savoir que derrière ces options à activer ou désactiver se
     </item>
     
     <item>
+      <title>Couche Latin</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</guid>
+      <description>Couche Latin#Séquence d&amp;rsquo;accès : altgr-R
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
       <title>Licence</title>
       <link>https://draft-optimot.github.io/docs/logiciel/licence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -152,6 +223,17 @@ Il faut simplement savoir que derrière ces options à activer ou désactiver se
       <description>TODO ⇒ licence CC ?LICENCE OPTIMOT#Cette licence s’applique à la disposition Optimot, ses pilotes, sa documentation, et ses produits dérivés (tels que des autocollants).
 Particuliers#Les particuliers, pour leur usage personnel et professionnel (à la maison ou en entreprise)…
 Peuvent#Utiliser la disposition, ses pilotes, sa documentation, et ses produits dérivés Modifier la disposition, ses pilotes, sa documentation, et ses produits dérivés Ne peuvent pas#Diffuser la disposition, ses pilotes, sa documentation, et ses produits dérivés, ni des modifications de ceux-ci Entreprises, sociétés non commerciales, services publics#Les entreprises, sociétés non commerciales, services publics…</description>
+    </item>
+    
+    <item>
+      <title>Quels claviers ?</title>
+      <link>https://draft-optimot.github.io/docs/documentation/quels_claviers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/quels_claviers/</guid>
+      <description>Quels claviers utiliser ?#Tous !#Absolument tous les claviers fonctionnent, mais certains sont peut-être plus indiqués que d&amp;rsquo;autres…
+TODO ⇒ compléter + imagesQuelques claviers problématiques#Ces claviers ne vous empêcheront pas de taper en Optimot mais leurs agencements alternatifs rendront l&amp;rsquo;exercice un petit peu moins pertinent car l&amp;rsquo;emplacement des caractères est crucial dans la conception de la disposition.
+Lenovo Legion 5 et assimilés#Certains nouveaux modèles d&amp;rsquo;ordinateurs portables présentent un clavier sur lequel la touche Enter a été ramenée à une seule rangée de hauteur, et élargie, de telle sorte que la touche * μ habituellement située au creux de celle-ci se retrouve tout en haut, tout à droite.</description>
     </item>
     
     <item>

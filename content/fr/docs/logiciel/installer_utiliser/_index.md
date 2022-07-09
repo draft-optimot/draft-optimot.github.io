@@ -54,6 +54,6 @@ Optimot est rangé dans vos langues et est accessible :
 
 <--->
 
-![](../../../img/windows_barre_des_taches_lang.png)
+![screenshot de la barre des tâches de Windows](../../../img/windows_barre_des_taches_lang.png)
 
 {{</columns>}}

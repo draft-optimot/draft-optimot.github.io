@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 8
 bookCollapseSection: true
 title: "Cas d'usage"
 ---
