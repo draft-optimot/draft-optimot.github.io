@@ -8,19 +8,11 @@ weight: 1
 
 ## Disposition des caractères sur le clavier Optimot
 
-`€` `1` `2` `3` `4` `5` `6` `7` `8` `9` `0` `@` `#`
-
- `À` `J` `O` `É` `B` `F` `D` `L` `'` `Q` `X` `Ç` 
-
- `A` `I` `E` `U` `,` `P` `T` `S` `R` `N` `^` `Z` 
-
- `K` `Y` `È` `.` `W` `⇦` `G` `C` `M` `H` `V` 
-
- 
+![Map de la disposition Optimot](../../../../img/optimot_ISO.jpg)
 
 ⇒ Oui, `⇦` prend la place du `B` de l'AZERTY pour donner un `backspace` en plein milieu du clavier !
 
- 
+
 
 ___
 

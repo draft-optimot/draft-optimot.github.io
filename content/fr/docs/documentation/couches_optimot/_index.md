@@ -19,7 +19,7 @@ Optimot est **composé d'un nombre de couches important** qui peuvent dérouter 
 TODO ⇒ Veiller à la màj de la toc
 {{</hint>}}
 
-- [Accès direct](acces_direct)
+- [Couches de base](couche_de_base)
 - [Couche `^`](couche_circonflexe)
 - [Couche Flèches](couche_fleches)
 - [Couche Science](couche_science)

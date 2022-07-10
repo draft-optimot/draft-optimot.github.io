@@ -31,7 +31,7 @@ ___
 
 ## Découvrir
 
-[📄 C'est quoi, Optimot ?](docs/documentation/comprendre_optimot/pourquoi_optimot)
+[📄 Pourquoi Optimot ?](docs/documentation/comprendre_optimot/pourquoi_optimot)
 
 ► Quelques pages pour vous faire découvrir la manière dont la disposition a été pensée 🙂
 
@@ -66,7 +66,9 @@ Le projet Optimot est hébergé dans la communauté Bépo (dont il est l'hériti
 - site web : https://bepo.fr/wiki/Accueil
 - discord : https://bepo.fr/wiki/Contact
 
-⇒ Auteur : **@Pyjam** (présent sur le discord)
+⇒ Auteur de la disposition : **@Pyjam** (présent sur le discord)
+
+⇒ Auteur de ce site : [Etienne Safa](https://github.com/etiennesafa)
 
 ⇒ fichiers de téléchargement du driver actuellement sur discord
 {{</hint>}}

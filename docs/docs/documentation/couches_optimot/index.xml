@@ -6,12 +6,14 @@
     <description>Recent content in Les couches d&#39;Optimot on Optimot</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://draft-optimot.github.io/docs/documentation/couches_optimot/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Accès direct</title>
-      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</link>
+      <title>Couches de base</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_de_base/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</guid>
-      <description>Couche en accès direct#</description>
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_de_base/</guid>
+      <description>Couches de base (accès direct)#Couche de base d&amp;rsquo;Optimot (version ISO)
+Quelques généralités#💡 Principe des quatre niveaux↕De base, tous les claviers ont la capacité de placer quatre caractères par touche grâce aux modificateurs Shift et AltGr ainsi qu&amp;rsquo;avec leur combinaison AltGr-Shift, ce qui produit le résultat suivant :
++-------+caractère en Shift → | A Æ | ← caractère en AltGr-Shiftcaractère en accès direct → | a æ | ← caractère en AltGr+-------+ En général, leur utilisation se cantonne aux touches supérieures (le num-row) et n&amp;rsquo;utilisent pas la possibilité AltGr-Shift → sur la touche 8 AZERTY, par exemple, on trouve _ 8 \.</description>
     </item>
     
     <item>
@@ -62,6 +64,16 @@ TODO ⇒ map &amp;amp; description</description>
       
       <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</guid>
       <description>Couche Latin#Séquence d&amp;rsquo;accès : AltGr-R
+TODO ⇒ map &amp;amp; description</description>
+    </item>
+    
+    <item>
+      <title>Couche Monnaie</title>
+      <link>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_monnaie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_monnaie/</guid>
+      <description>Couche Monnaie#Séquence d&amp;rsquo;accès : AltGr-$
 TODO ⇒ map &amp;amp; description</description>
     </item>
     

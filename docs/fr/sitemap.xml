@@ -4,9 +4,9 @@
   <url>
     <loc>https://draft-optimot.github.io/docs/documentation/</loc>
   </url><url>
-    <loc>https://draft-optimot.github.io/docs/documentation/couches_optimot/acces_direct/</loc>
-  </url><url>
     <loc>https://draft-optimot.github.io/docs/logiciel/change_log/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_de_base/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/</loc>
   </url><url>
@@ -55,6 +55,8 @@
     <loc>https://draft-optimot.github.io/docs/documentation/comprendre_optimot/touches_et_dispositions/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_latin/</loc>
+  </url><url>
+    <loc>https://draft-optimot.github.io/docs/documentation/couches_optimot/couche_monnaie/</loc>
   </url><url>
     <loc>https://draft-optimot.github.io/docs/documentation/cas_usage/</loc>
   </url><url>

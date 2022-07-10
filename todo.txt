@@ -3,3 +3,4 @@
 [ ] Illustrer le site web
 [ ] Produire un script de design graphique pour les layout (LaTeX / Python ?) ⇒ harmoniser et accorder à l'identité visuelle
 [ ] Créer le logo
+[ ] Blog → Tenir compte de la motricité des doigts dans le design d'une disposition de clavier (map des distancts / coûts des touches)
