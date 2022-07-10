@@ -18,7 +18,7 @@ Optimot est une **disposition clavier** optimisée pour le français, très fonc
 * La dactylographie,
 * La programmation,
 * Les mathématiques,
-* Les grec,
+* Le grec,
 * etc.
 
 {{</columns>}}
