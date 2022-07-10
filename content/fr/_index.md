@@ -68,7 +68,7 @@ Le projet Optimot est hébergé dans la communauté Bépo (dont il est l'hériti
 
 ⇒ Auteur de la disposition : **@Pyjam** (présent sur le discord)
 
-⇒ Auteur de ce site : [Etienne Safa](https://github.com/etiennesafa)
+⇒ Auteur de ce site : [Etienne Safa](https://github.com/etiennesafa) / **@ToastedBear** sur le discord
 
 ⇒ fichiers de téléchargement du driver actuellement sur discord
 {{</hint>}}
