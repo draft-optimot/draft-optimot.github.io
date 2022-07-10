@@ -10,32 +10,62 @@ title: "Fragrances d'Optimot"
 
 Chaque système d'exploitation a sa manière de gérer les drivers de claviers et vient avec son lot d'opportunités et de contraintes, ce qui laisse deux possibilités :
 
-1. Harmoniser tous les drivers en s'arrêtant aux limitations les plus fortes (celles de Windows),
-2. Développer trois drivers fondés sur la même base mais qui exploitent chacun au maximum les possibilités que lui donne l'OS pour lequel il est développé.
+1. **Harmoniser tous les drivers** en s'arrêtant aux limitations les plus fortes (celles de Windows),
+2. **Développer trois drivers** fondés sur la même base mais qui exploitent chacun **au maximum les possibilités que lui donne l'OS** pour lequel il est développé.
 
 Dans le cas d'Optimot, le choix a été fait de **tirer le maximum de chaque OS (Mac, Linux, Windows)** et de produire trois drivers — trois fragrances d'Optimot — en commençant par le maximum puis en élaguant les fonctionnalités non-compatibles lors du portage vers les autres OS.
 
-{{<button relref="/optimot_macos">}}Voir les particularités macOS{{</button>}}
 
-{{<button relref="/optimot_linux">}}Voir les particularités Linux{{</button>}}
+## Qu'est-ce qui change ?
 
-{{<button relref="/optimot_windows">}}Voir les particularités Windows{{</button>}}
+{{<hint danger>}}
+TODO ⇒ compléter les onglets
+{{</hint>}}
 
-## Chaînage Mac — Linux — Windows
+{{<tabs "uniqueid">}}
 
-Pour faire simple :
+{{<tab "MacOS">}}
+#### Optimot pour MacOS
 
-1. Optimot est développé sur Mac, via Karabiner,
-2. Le fichier de description Mac est passé à travers un script afin de produire les fichiers de description des drivers Linux et Windows,
-3. Le driver Linux reprend toutes les fonctionnalités originales,
-4. Le driver Windows en perd un certain nombre.
+C'est la version la plus complète et qui met à disposition de l'utilisateur les fonctionnalités les plus avancées :
 
-Quand on parle de fonctionnalités, on parle ici :
+🔒 **Verrouillage + mode avancé de certaines couches :**
 
-- De certains caractères que Windows ne permet pas d'intégrer dans un driver de clavier,
-- De certaines combinaisons de touches que Windows interdit.
+  - Évite de devoir réactiver la couche à chaque caractère →  plus de fluidité,
+  - Fonctionnalités pratiques pour certains cas d'usage,
+  - Disponible pour les modes **exposant** et **indice** ainsi que la couche **Grec**.
 
-La description de ces alternatives est donnée dans les pages dédiées : [Mac](optimot_mac.md), [Linux](optimot_linux.md) et [Windows](optimot_windows.md).
+🎓 **Lettres mathématiques**
+
+
+🔍 [En savoir plus…](optimot_macos)
+
+{{</tab>}}
+
+{{<tab "Linux">}}
+#### Optimot pour Linux
+
+C'est une version quasi-complète par rapport à celle de MacOS : seuls certains comportements avancés demandent encore un peu de travail d'ingénierie ou subissent une contrainte technique.
+
+Dans l'ensemble, on est plus qu'à mi-chemin entre Windows et MacOs.
+
+🔍 [En savoir plus…](optimot_linux)
+
+{{</tab>}}
+
+{{<tab "Windows">}}
+#### Optimot pour Windows
+
+C'est la version la moins featurée du fait des limitations du système d'exploitation — la façon dont Windows gère les drivers de claviers crée un certain nombre d'incompatibilités qui nécessitent un élagage dans les caractères / enchaînements de touches.
+
+Pour autant, elle préserve tous les atouts de base de la disposition : ergonomie et mise à disposition d'une importante variété de caractères.
+
+🔍 [En savoir plus…](optimot_windows)
+
+{{</tab>}}
+
+{{</tabs>}}
+
 
 {{<hint info>}}
 ✅ L'index des caractères pris en charge par Optimot est sur [Bépoète.fr/optimot](https://www.xn--bpote-6rae.fr/optimot)

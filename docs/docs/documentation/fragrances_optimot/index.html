@@ -16,7 +16,7 @@ Harmoniser tous les drivers en s&rsquo;arrêtant aux limitations les plus fortes
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.2bc2364a4a4b31f0ec1debecf0a8f90a840821f143dfe1ac6a0f7cbcbdcf64ac.css" integrity="sha256-K8I2SkpLMfDsHevs8Kj5CoQIIfFD3&#43;Gsag98vL3PZKw=">
-<script defer src="/fr.search.min.98f69893e7c74aecd8690e81a2aea75d406e17df4b66a55116e1a93b28f58b67.js" integrity="sha256-mPaYk&#43;fHSuzYaQ6Boq6nXUBuF99LZqVRFuGpOyj1i2c="></script>
+<script defer src="/fr.search.min.ad0f7e7c95635efdb78b04d1f8e586571ba82fc387a168e6951d60c2c28b1a17.js" integrity="sha256-rQ9&#43;fJVjXv23iwTR&#43;OWGVxuoL8OHoWjmlR1gwsKLGhc="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 
@@ -612,7 +612,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#pourquoi-optimot-est-différent-sur-mac-linux-et-windows">Pourquoi Optimot est différent sur Mac, Linux et Windows ?</a></li>
-    <li><a href="#chaînage-mac--linux--windows">Chaînage Mac — Linux — Windows</a></li>
+    <li><a href="#quest-ce-qui-change">Qu&rsquo;est-ce qui change ?</a></li>
   </ul>
 </nav>
 
@@ -635,57 +635,57 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 <p>Chaque système d&rsquo;exploitation a sa manière de gérer les drivers de claviers et vient avec son lot d&rsquo;opportunités et de contraintes, ce qui laisse deux possibilités :</p>
 <ol>
-<li>Harmoniser tous les drivers en s&rsquo;arrêtant aux limitations les plus fortes (celles de Windows),</li>
-<li>Développer trois drivers fondés sur la même base mais qui exploitent chacun au maximum les possibilités que lui donne l&rsquo;OS pour lequel il est développé.</li>
+<li><strong>Harmoniser tous les drivers</strong> en s&rsquo;arrêtant aux limitations les plus fortes (celles de Windows),</li>
+<li><strong>Développer trois drivers</strong> fondés sur la même base mais qui exploitent chacun <strong>au maximum les possibilités que lui donne l&rsquo;OS</strong> pour lequel il est développé.</li>
 </ol>
 <p>Dans le cas d&rsquo;Optimot, le choix a été fait de <strong>tirer le maximum de chaque OS (Mac, Linux, Windows)</strong> et de produire trois drivers — trois fragrances d&rsquo;Optimot — en commençant par le maximum puis en élaguant les fonctionnalités non-compatibles lors du portage vers les autres OS.</p>
-
-
-
-
-  
-
-<a  href="/docs/documentation/fragrances_optimot/optimot_macos/"   class="book-btn">
-  Voir les particularités macOS
-</a>
-
-
-
-
-
-  
-
-<a  href="/docs/documentation/fragrances_optimot/optimot_linux/"   class="book-btn">
-  Voir les particularités Linux
-</a>
-
-
-
-
-
-  
-
-<a  href="/docs/documentation/fragrances_optimot/optimot_windows/"   class="book-btn">
-  Voir les particularités Windows
-</a>
-
-<h2 id="chaînage-mac--linux--windows">
-  Chaînage Mac — Linux — Windows
-  <a class="anchor" href="#cha%c3%aenage-mac--linux--windows">#</a>
+<h2 id="quest-ce-qui-change">
+  Qu&rsquo;est-ce qui change ?
+  <a class="anchor" href="#quest-ce-qui-change">#</a>
 </h2>
-<p>Pour faire simple :</p>
-<ol>
-<li>Optimot est développé sur Mac, via Karabiner,</li>
-<li>Le fichier de description Mac est passé à travers un script afin de produire les fichiers de description des drivers Linux et Windows,</li>
-<li>Le driver Linux reprend toutes les fonctionnalités originales,</li>
-<li>Le driver Windows en perd un certain nombre.</li>
-</ol>
-<p>Quand on parle de fonctionnalités, on parle ici :</p>
+<blockquote class="book-hint danger">
+  TODO ⇒ compléter les onglets
+</blockquote>
+
+
+
+
+
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+  <label for="tabs-uniqueid-0">MacOS</label>
+  <div class="book-tabs-content markdown-inner"><h4 id="optimot-pour-macos">
+  Optimot pour MacOS
+  <a class="anchor" href="#optimot-pour-macos">#</a>
+</h4>
+<p>C&rsquo;est la version la plus complète et qui met à disposition de l&rsquo;utilisateur les fonctionnalités les plus avancées :</p>
+<p>🔒 <strong>Verrouillage + mode avancé de certaines couches :</strong></p>
 <ul>
-<li>De certains caractères que Windows ne permet pas d&rsquo;intégrer dans un driver de clavier,</li>
-<li>De certaines combinaisons de touches que Windows interdit.</li>
+<li>Évite de devoir réactiver la couche à chaque caractère →  plus de fluidité,</li>
+<li>Fonctionnalités pratiques pour certains cas d&rsquo;usage,</li>
+<li>Disponible pour les modes <strong>exposant</strong> et <strong>indice</strong> ainsi que la couche <strong>Grec</strong>.</li>
 </ul>
-<p>La description de ces alternatives est donnée dans les pages dédiées : <a href="optimot_mac.md">Mac</a>, <a href="optimot_linux.md">Linux</a> et <a href="optimot_windows.md">Windows</a>.</p>
+<p>🎓 <strong>Lettres mathématiques</strong></p>
+<p>🔍 <a href="optimot_macos">En savoir plus…</a></p>
+</div><input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-1"  />
+  <label for="tabs-uniqueid-1">Linux</label>
+  <div class="book-tabs-content markdown-inner"><h4 id="optimot-pour-linux">
+  Optimot pour Linux
+  <a class="anchor" href="#optimot-pour-linux">#</a>
+</h4>
+<p>C&rsquo;est une version quasi-complète par rapport à celle de MacOS : seuls certains comportements avancés demandent encore un peu de travail d&rsquo;ingénierie ou subissent une contrainte technique.</p>
+<p>Dans l&rsquo;ensemble, on est plus qu&rsquo;à mi-chemin entre Windows et MacOs.</p>
+<p>🔍 <a href="optimot_linux">En savoir plus…</a></p>
+</div><input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-2"  />
+  <label for="tabs-uniqueid-2">Windows</label>
+  <div class="book-tabs-content markdown-inner"><h4 id="optimot-pour-windows">
+  Optimot pour Windows
+  <a class="anchor" href="#optimot-pour-windows">#</a>
+</h4>
+<p>C&rsquo;est la version la moins featurée du fait des limitations du système d&rsquo;exploitation — la façon dont Windows gère les drivers de claviers crée un certain nombre d&rsquo;incompatibilités qui nécessitent un élagage dans les caractères / enchaînements de touches.</p>
+<p>Pour autant, elle préserve tous les atouts de base de la disposition : ergonomie et mise à disposition d&rsquo;une importante variété de caractères.</p>
+<p>🔍 <a href="optimot_windows">En savoir plus…</a></p>
+</div></div>
+
 <blockquote class="book-hint info">
   <p>✅ L&rsquo;index des caractères pris en charge par Optimot est sur <a href="https://www.xn--bpote-6rae.fr/optimot">Bépoète.fr/optimot</a></p>
 <p> ⇒ 🔎 Avec une fonction recherche !!</p>
@@ -770,7 +770,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#pourquoi-optimot-est-différent-sur-mac-linux-et-windows">Pourquoi Optimot est différent sur Mac, Linux et Windows ?</a></li>
-    <li><a href="#chaînage-mac--linux--windows">Chaînage Mac — Linux — Windows</a></li>
+    <li><a href="#quest-ce-qui-change">Qu&rsquo;est-ce qui change ?</a></li>
   </ul>
 </nav>
 
